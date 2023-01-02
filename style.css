@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+
+}
+
+nav{
+    background-color:rgb(51, 47, 47);
+    color: white;
+}
+
+
+.white-none {
+    color:white;
+    text-decoration:none;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+#menu{
+    list-style-type: none;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+main img{
+    width: 300px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1.5em;
+    padding: 50px 100px 50px 50px;
+    background-color: rgb(34,34,34,0.5);
+    border-radius: 30px;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./images/manhattan.jpg) ;
+    background-repeat: none;
+    background-size: cover;
+}
+
+h3{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+
+#features img{
+    width: 300px;
+    height: 200px;
+}
+
+#features{
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#features h2{
+    margin-bottom: white;
+    margin-bottom: 1.5em;
+}
+
+footer{
+    padding: 1em;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+}
